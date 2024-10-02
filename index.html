@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This a HTML Review">
+    <meta name="keywords" content="HTML, Tutorial, Review">
+    <meta name="author" content="Uaine">
+    <meta http-equiv="refresh" content="30">
+</head>
+<body style="background-color: #F6DBDC;">
+    <h1 style="color: #57edf2;">Review HTML</h1>
+    <p><b>Starting to review html for php</b></p>
+    <hr>
+
+    <!--Text Formats-->
+    <p><b>Lorem ipsum dolor</b>sit amet consectetur adipisicing elit. Quo ducimus <i> porro praesentium</i><br>
+        fugiat ut <big>illum!</big> Sint <small>maxime</small> id incidunt <sub>voluptatum</sub> veritatis, <sup>beatae</sup> consequatur <ins>repudiandae</ins> minus <br>
+        nostrum nulla <del>laudantium</del> <mark>placeat?</mark></p>
+    <!--This is a comment-->
+    <div class="container">
+        <p>Username: <input type="text" id="username" placeholder="Username here"></input></p>
+
+        <p>Password: <input type="text" id="password" placeholder="Password here"></input></p>
+
+        <a href="revhtml.html"><input type="submit" id="login" value="Log In"></input></a>
+
+        <br>
+        <hr>
+
+        <a href="https://www.youtube.com/watch?v=HD13eq_Pmp8&list=WL&index=3&t=71s" target=_self title="HTML Tutorial">Bro Code</a>
+        <br>
+
+        <a href="anon.html" target="_self">Anon Tokyo</a>
+        <br>
+
+        <a href="https://bandori.fandom.com/wiki/Chihaya_Anon" target="_self">
+        <img src="gifs/tenor.gif" width="200px" height="200px" alt="anon" title="Anon is cute"></img>
+        </a>
+        <hr>
+
+        <audio controls loop>
+            <source src="audio/Chihaha.mp3">
+            This browser doesnt support HTML 5 audio
+        </audio>
+        <hr>
+
+        <video controls autoplay muted loop width="500px">
+            <source src="vids/AC.mp4">
+            This browser doesnt support HTML 5 audio
+        </video>
+        <hr>
+    </div>
+
+    <div class="items">
+        <h4>Unordered List</h4>
+        <ul>
+            <li>Pizza Dough</li>
+            <li>Pizza Sauce</li>
+            <li>Pizza Toppings
+                <ul>
+                    <li>Cheese</li>
+                    <li>Ham</li>
+                    <li>Pepperoni</li>
+                    <li>Mushroom</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Ordered List</h4>
+        <ol type="A">
+            <li>Clean the bed</li>
+            <li>Eat breakfast</li>
+            <li>Do something</li>
+        </ol>
+
+        <h4>Description List</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Adds structure to a webpage</dd>
+            <dt>CSS</dt>
+            <dd>Adds styling to a webpage</dd>
+            <dt>Javascipt</dt>
+            <dd>Adds functionality to a webpage</dd>
+        </dl>
+        <hr>
+        <H4>Tables</H4>
+        <table bgcolor="grey" width="700px">
+            <tr bgcolor="pink">
+                <th width="100px">Sunday</th>
+                <th width="100px">Monday</th>
+                <th width="100px">Tuesday</th>
+                <th width="100px">Wednesday</th>
+                <th width="100px">Thursday</th>
+                <th width="100px">Friday</th>
+                <th width="100px">Saturday</th>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td>8-8</td>
+                <td>Closed</td>
+                <td>8-8</td>
+                <td>Closed</td>
+                <td>8-8</td>
+                <td>Closed</td>
+                <td>8-8</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <p>
+            <span style="color: grey;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, cumque pariatur corrupti provident, necessitatibus molestiae fuga est consequatur debitis iure laborum iste itaque, consectetur vero deserunt. Vitae doloremque omnis amet?</span>
+        </p>
+    </div>
+
+    <div class="iframes">
+        <iframe style="border: 0;" src="anon.html" width="750px" height="250"></iframe>
+        <hr>
+        <a href="anon.html">
+            <button onclick="doSomething()" style="background-color: #333333;color: #00FF00; border-radius: 5px;">Wife</button>
+        </a>
+
+        <p id="test">Wassupp</p>
+        <button onclick="doSomething()" style="background-color: #333333;color: #00FF00; border-radius: 5px;">With JS</button>
+    </div>
+    <hr>
+
+    <form action="action.php" method="POST">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="first name" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="last name" required>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" placeholder="password" maxlength="12" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="dunnowhattoputhere@email.com"  required>
+
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="09254545151" maxlength="11" required>
+
+            <label for="birth">Birthday</label>
+            <input type="date" id="birth" name="birth">
+        </div>
+        <br>
+        <div>
+            <label for="quanti">Quantity</label>
+            <input type="number" id="quanti" name="quanti" min="0" max="99" value="1">
+         
+            <label for="gender">Gender</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female">
+
+            <label for="plans">Plans</label>
+            <select name="plans" id="plans">
+                <option value="plana">Plan A</option>
+                <option value="planb">Plan B</option>
+                <option value="planc">Plan C</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="sure">Is the provided information is correct? </label>
+            <input type="checkbox" id="sure" name="sure">
+        </div>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+</body>
+</html>
